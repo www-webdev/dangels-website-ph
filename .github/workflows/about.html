@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Angels Website</title>
+   
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="burger.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="icon"  href="hero.png">
+</head>
+<body>
+
+<div class="navbar">
+    <div style="cursor: pointer;" class="logo" id="darkModeToggle">D'Angels Website</div>
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </label>
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</div>
+<div class="hero-image">
+    <div class="hero-text">
+           <h1>About Us</h1>
+           
+       </div>
+   </div>
+ <h1 style="color: aqua; font-size: 30px;text-align: left;">About Us</h1>
+ <p style="font-weight: 600;">Welcome to D'Angels Milkshake & Milktea—your go-to spot for those little moments of joy that come with a delicious drink. We’re a small team with big hearts, and our mission is simple: to bring a smile to your face with every sip. Whether you’re in the mood for a creamy milkshake or a refreshing milk tea, we’ve got you covered.
+</p> <br>
+<h3 style="text-align: left; font-family: verdana;">What Makes Us Different?</h3>
+<p>At D'Angels, we believe that the best drinks start with the best ingredients. Our drinks aren’t just made—they’re crafted with care, so each one feels like a little treat just for you.</p>
+<br>
+<h3 style="text-align: left; font-family: verdana;">Drinks Made For You</h3>
+<p>We know everyone’s tastes are different, which is why we give you the freedom to customize your drink exactly how you like it. Want your milk tea extra sweet? Or maybe you prefer your milkshake with all the fun toppings? No problem! We’re all about making your drink exactly as you imagine it—because you deserve it.</p>
+<br>
+<h3 style="text-align: left; font-family: verdana;">The Warmest Welcome</h3>
+<P>When you walk through our store, we want you to feel like part of the D'Angels family. Our team is here to make sure you have a great experience—from the moment you order to the last sip of your drink. We’re not just serving drinks; we’re serving smiles, friendly conversations, and a little bit of happiness in every cup.</P>
+<BR>
+<h3 style="text-align: left; font-family: verdana;">More Than Just a Drink</h3>   
+<p>It’s not just about getting your fix—it’s about making memories. Whether you’re catching up with friends, treating yourself after a long day, or just looking for a sweet escape, D'Angels is the place to be. Every drink is a chance to pause, relax, and enjoy life’s little pleasures.</p>
+<br><BR>
+    <h4>So come on in, grab your favorite drink, and let us show you why D'Angels Milkshake & Milktea is more than just a place to grab a quick drink—it’s a place where great flavors and good vibes meet. We can’t wait to serve you!</h4> 
+
+<!-----FOOTER----->
+<footer style="text-align: center;">
+    <p>D'Angels Milkshake & Milktea 2024 All Rights Reserved</p> 
+</footer>
+<!--SCRIPT-->
+<script>
+const darkModeToggle = document.getElementById('darkModeToggle');
+
+darkModeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    
+    // Update button text
+    if (document.body.classList.contains('dark-mode')) {
+        darkModeToggle.textContent = "D'Angels Website";
+    } else {
+        darkModeToggle.textContent = "D'Angels Website";
+    }
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+/********** CONTENT ***********/
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+button.dark-mode {
+    background-color: #FF9800;
+}
+
+button.dark-mode:hover {
+    background-color: #e68900;
+}
+
+header {
+    height: auto;
+    width: 100vw;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Handwriting', cursive;
+    text-align: left;
+    font-size: 2em;
+    margin: 0;
+    padding: 10px 0;
+}
+
+
+/* Paragraph and heading styles */
+h3 {
+    color: black;
+    text-align: left;
+    font-family: 'Times New Roman';
+}
+
+/* Ensure dark mode for paragraphs and headings */
+body.dark-mode p,
+body.dark-mode h3 {
+    color: white;
+}
+
+li {
+    color: black;
+    font-family: sans-serif;
+}
+
+/* Ensure dark mode for list items */
+body.dark-mode li {
+    color: white;
+}
+
+footer {
+    background-color: #10dbff;
+    padding: 10px 10px;
+    text-align: center;
+    bottom: 0;
+}
+
+footer p {
+    color: black;
+    font-family: Helvetica;
+}
+
+/* Ensure footer text switches in dark mode */
+body.dark-mode footer p {
+    color: white;
+}
+body.dark-mode footer {
+    background-color: #333;
+}
