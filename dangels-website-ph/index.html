@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Angels Website</title>
+   
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="burger.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon"  href="hero.png">
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo" id="darkModeToggle" style="cursor: pointer;">D'Angels Website  </div>
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </label>
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</div>
+<div class="hero-image">
+    <div class="hero-text">
+           <h1>Welcome to D'Angels</h1>
+           <p>Refreshing Milkshakes & Milk Tea</p>
+       </div>
+   </div>
+   <table>
+    <TR>
+    <th><b>Our Menu</b></th>
+    <th>Our Prices</th>
+</TR>
+        <td><b><p>Milkshakes</p></b> 
+          <p>Indulge in our thick and creamy milkshakes, available in a variety of flavors:</p>
+            <p>
+                <li>Avocado</li>
+                <li>Black Forest</li>
+                <li>Bubble Gum</li>
+                <li>Buko Pandan</li>
+                <li>Cappuccino</li>
+                <li>Caramel Macchiato</li>
+                <li>Chocolate</li>
+                <li>Choco Hot Fudge</li>
+                <li>Choco Mousse</li>
+                <li>Choco Kisses</li>
+                <li>Cookies & Cream</li>
+                <li>Double Dutch</li>
+                <li>Leche Flan</li>
+                <li>Mango</li>
+                <li>Melon</li>
+                <li>Rocky Road</li>
+                <li>Strawberry</li>
+                <li>Taro</li>
+                <li>Ube</li>
+        
+            </p>
+            <B><P>Milktea</P></B>
+            <p>
+                <li>Dark Chocolate</li>
+                <li>Hazel Nut</li>
+                <li>Mango Cheese Cake</li>
+                <li>Matcha</li>
+                <li>Okinawa</li>
+                <li>Red Velvet</li>
+                <li>Wintermelon</li>
+            </p>
+        </td>
+   <td>
+    <h3><b>Milktea</b></h3>
+    <p>12oz-₱35.00</p>
+    <p>16oz-₱40.00</p>
+    <p>22oz-₱60.00</p>
+    <p><u>PRICE MAY VARY FOR MATCHA & DARK CHOCOLATE</u></p>
+
+<BR><BR>
+    
+    <h3><b>Milkshake</b></h3>
+    <p>12oz-₱35.00</p>
+    <p>16oz-₱40.00</p>
+    <p>22oz-₱60.00</p>
+
+    <br><br>
+
+    <h3><b>Mango Graham Fruit Shake</b></h3>
+    <p>12oz-₱60.00</p>
+    <p>16oz-₱65.00</p>
+    <p>22oz-₱90.00</p>
+    
+   </td>
+        
+</table>
+
+<footer>
+    <p>D'Angels Milkshake & Milktea 2024 All Rights Reserved</p> 
+</footer>
+<script>
+const darkModeToggle = document.getElementById('darkModeToggle');
+
+darkModeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    
+    // Update button text
+    if (document.body.classList.contains('dark-mode')) {
+        darkModeToggle.textContent = "D'Angels Website";
+    } else {
+        darkModeToggle.textContent = "D'Angels Website";
+    }
+});
+</script>
+
+</body>
+</html>
